@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Supplier</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<h2 class="center">Add Supplier</h2>
+
+<div class="menu">
+    <a href="suppliers.html">Suppliers</a>
+    <button onclick="logout()">Logout</button>
+</div>
+
+<form id="addSupplierForm" class="form">
+    <input type="text" id="name" placeholder="Supplier name" required>
+    <input type="text" id="contact" placeholder="Contact" required>
+
+    <button>Add Supplier</button>
+    <p id="msg" class="success"></p>
+</form>
+
+<script src="js/utils.js"></script>
+<script src="js/suppliers.js"></script>
+
+</body>
+</html>

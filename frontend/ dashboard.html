@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<h2 class="center">Dashboard</h2>
+
+<div class="menu">
+    <a href="products.html">Products</a>
+    <a href="add-product.html">Add Product</a>
+    <a href="suppliers.html">Suppliers</a>
+    <a href="add-supplier.html">Add Supplier</a>
+    <button onclick="logout()">Logout</button>
+</div>
+
+<h3 class="center">Recent Activities</h3>
+
+<table id="activityTable">
+    <thead>
+        <tr>
+            <th>Activity</th>
+            <th>User</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="js/utils.js"></script>
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>
